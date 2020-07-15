@@ -111,8 +111,7 @@ workflows:
     version: 2
     build:
         jobs:
-            - build:
-                context: ForPercyEnv
             - "python-3.6"
+                context: ForPercyEnv
             - "python-3.7"
             - "node"
